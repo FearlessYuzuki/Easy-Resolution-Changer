@@ -66,7 +66,9 @@ Windows 双屏分辨率快速切换工具，Mac 风格圆角界面。在 Windows
 | 模型 | `deepseek/deepseek-v4-flash-vision-exp`（DeepSeek-V4-Flash-Vision-Exp） |
 | CLI | [opencode](https://opencode.ai) |
 | 推理强度 | 默认（未在配置中显式覆盖 reasoning effort） |
-| 上下文用量 | 累计约 100k / 200k tokens（整个开发 session） |
+| 消费金额 | ¥1.16 CNY |
+| API 请求次数 | 105（deepseek-v4-flash 83 次 / deepseek-v4-flash-vision-exp 22 次） |
+| Tokens | 8,843,432（deepseek-v4-flash 6,001,268 / deepseek-v4-flash-vision-exp 2,842,164） |
 
 > 说明：本项目由 AI 经 opencode CLI 完成调研、编码、编译测试与迭代（含 EDID 解析、WPF 代码构建、C# 5 兼容性调整、Git 初始化与推送全流程），人负责需求描述与界面验收。
 
