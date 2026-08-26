@@ -57,6 +57,19 @@ Windows 双屏分辨率快速切换工具，Mac 风格圆角界面。在 Windows
 - **切换失败提示"不支持的显示模式"怎么办？** 说明该模式不在模式列表中，换一个模式即可
 - **虚拟显示器会出现在界面里吗？** 不会，未接入桌面（未启用镜像驱动）的适配器会被忽略
 
+## Vibe Coding 声明
+
+本项目是 **Vibe Coding** 产物（AI 辅助开发，全程由 AI 对话驱动生成代码，人工审定功能需求）：
+
+| 项目 | 值 |
+| --- | --- |
+| 模型 | `deepseek/deepseek-v4-flash-vision-exp`（DeepSeek-V4-Flash-Vision-Exp） |
+| CLI | [opencode](https://opencode.ai) |
+| 推理强度 | 默认（未在配置中显式覆盖 reasoning effort） |
+| 上下文用量 | 累计约 100k / 200k tokens（整个开发 session） |
+
+> 说明：本项目由 AI 经 opencode CLI 完成调研、编码、编译测试与迭代（含 EDID 解析、WPF 代码构建、C# 5 兼容性调整、Git 初始化与推送全流程），人负责需求描述与界面验收。
+
 ## License
 
 GPL-2.0
